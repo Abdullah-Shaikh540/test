@@ -1,0 +1,42 @@
+.main-container {
+    height: 70vh;
+    background: linear-gradient(to right,#166E95, #875C31, #723B74);
+  }
+  
+  .first-div {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .first-div p {
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .first-div p:last-child {
+    color: black;
+  }
+  
+
+  .youtube-icon {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .youtube-icon-img {
+    width: 50px; /* Adjust the width of the YouTube icon image */
+    height: 50px; /* Adjust the height of the YouTube icon image */
+  }
+
+  .Square-image {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .secondclass {
+    background-image: url(./bgimage.png);
+    background-color: black;
+   
+}

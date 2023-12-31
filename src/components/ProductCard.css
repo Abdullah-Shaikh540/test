@@ -1,0 +1,44 @@
+.card-container {
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .card {
+    flex: 1; /* Each card takes equal width in the container */
+    max-width: 30%; /* Adjust the max-width based on the desired gap */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 16px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd; /* Add a border at the bottom of the image */
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  

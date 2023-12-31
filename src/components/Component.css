@@ -1,0 +1,49 @@
+.container {
+    background-color:#FFE9F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .div {
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .toronto-div {
+    background-color: black;
+    color: white;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    text-align: center;
+  }
+  
+  .toronto-div h1 {
+    margin: 0;
+  }
+  
+  .cupcakes-div {
+    text-align: center;
+  }
+  
+  .cupcakes-div p {
+    margin: 0;
+  }
+  
+  .order-now {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  .image-div img {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    width: 90%;
+    height: 120%; 
+  }
+  

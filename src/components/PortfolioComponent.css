@@ -1,0 +1,93 @@
+.portfolio-container {
+    background-color: #FFE9F8;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title-div {
+    margin: auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+  }
+  
+  .hr-line {
+    width: 50px;
+    border: 1px solid blue;
+    margin: 20px auto;
+  }
+  
+  #blue {
+    color: blue;
+  }
+  
+  .content-div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto; /* Center the container and remove the top margin */
+  }
+  
+  .image-grid-item {
+    width: 200px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    background-color: lightgray;
+    border-radius: 8px;
+    margin: 40px; /* Adjust the margin as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .image-grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    margin: 0 40px; /* Adjust the margin as needed */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 auto;
+    }
+  
+    .image-grid-item {
+      width: 100%;
+      margin: 20px;
+    }
+  
+    .nav-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #110915;
+    padding: 10px 70px;
+
+  }
+  
+  #border{
+    border-style: solid;
+    border-color: #3498db; 
+    margin-left: 30px;
+    padding: 0px, 40px;
+  }
+  .logo-container {
+    display: inline-block;
+  }
+  
+  .logo {
+    max-height: 40px;
+  }
+  
+  .links-container {
+    display: flex;
+  }
+  
+  .link {
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .link.silver {
+    color: silver;
+  }
+  
+  .link.blue {
+    color: #3498db;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .links-container {
+      margin-top: 10px;
+    }
+  
+    .link {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  .start-for-free {
+    padding: 1px 40px; /* Adjust padding as needed */
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #3498db; /* Border color same as background color */
+    margin-left: 30px; /* Add left margin */
+  }
+  

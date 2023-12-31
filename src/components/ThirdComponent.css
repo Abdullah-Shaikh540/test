@@ -1,0 +1,33 @@
+.main-container {
+    height: 70vh; /* Adjust the height as needed */
+  }
+  
+  .testimonial-div {
+    background-color: #6F348E;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .image-div {
+    background-color: #6F348E;
+    width: 50%; /* Adjust the width as needed */
+    display: inline-block;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Adjust the border radius as needed */
+  }
+  
+  .text-div {
+    text-align: center;
+    width: 50%; /* Adjust the width as needed */
+    display: inline-block;
+    color: white;
+  }
+  
